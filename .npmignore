@@ -5,3 +5,5 @@ tslint.json
 .prettierrc
 jest.config
 coverage
+/.github
+tslint.json
