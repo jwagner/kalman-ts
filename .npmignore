@@ -1,9 +1,0 @@
-index.ts
-index.test.ts
-tsconfig.json
-tslint.json
-.prettierrc
-jest.config
-coverage
-/.github
-tslint.json

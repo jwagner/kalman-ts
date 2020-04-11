@@ -5,10 +5,14 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "ci": "tslint",
+    "ci": "tslint -p . -c tslint.json",
     "test": "jest",
-    "prepublish": "tsc"
+    "prepare": "tsc && npm run test && npm run ci"
   },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
   "keywords": [
     "kalman",
     "filter",
